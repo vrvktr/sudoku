@@ -66,9 +66,9 @@ export default function App() {
 
   return (
     <main className="page-shell">
-      <section className="validator-card" aria-labelledby="page-title">
+      <section className="validator-card" aria-labelledby="page-title" aria-describedby="page-description">
         <h1 id="page-title">Sudoku Validator</h1>
-        <p className="subtitle">Enter numbers 1–9 and validate the board.</p>
+        <p id="page-description" className="subtitle">Enter numbers 1-9 and validate the board.</p>
 
         <div className="board" role="grid" aria-label="Sudoku board">
           {board.map((row, rowIndex) => row.map((value, colIndex) => {

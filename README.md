@@ -3,7 +3,7 @@
 A responsive React + Vite Sudoku validator styled to match the supplied reference screenshots.
 
 ## Features
-- Editable 9 × 9 grid; accepts digits 1–9.
+- Editable 9 x 9 grid; accepts digits 1-9.
 - Checks rows, columns, and 3 × 3 boxes for duplicate numbers.
 - Highlights all cells participating in a duplicate conflict.
 - Displays the required validation messages.
